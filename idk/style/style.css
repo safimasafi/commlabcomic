@@ -93,6 +93,10 @@ ul li
 { font-size: 100%;
   padding: 4px 0 0 0;
   color: #FFF;}
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+}
 
 #menubar
 { width: 900px;
@@ -116,14 +120,19 @@ ul#menu li a
   height: 37px;
   padding: 29px 26px 6px 26px;
   text-align: center;
-  color: #FFF;
-  text-transform: uppercase;
+  padding: 14px 16px;
   text-decoration: none;
-  background: transparent;} 
+  font-size: 17px;
+}
 
-ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
-{ color: #FFF;
-  background: transparent url(transparent.png) repeat;}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav-right {
+  float: right;
+}
 
 #site_content
 { width: 854px;
@@ -137,24 +146,11 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   width: 190px;
   padding: 0 15px 20px 15px;}
 
-.sidebar ul
-{ width: 178px; 
-  padding: 4px 0 0 0; 
-  margin: 4px 0 30px 0;
-padding: 0 0 7pv 0;
-}
-
-.sidebar li a, .sidebar li a:hover
-{ padding: 0 0 0 40px;
-  display: block;
-  } 
-
 #content
 { text-align: left;
   float: right;
   width: 595px;
   padding: 0;}
-
 
 #content ul
 { margin: 2px 0 22px 0px;}
@@ -163,10 +159,68 @@ padding: 0 0 7pv 0;
 { list-style-type: none;
   margin: 0 0 6px 0; 
   padding: 0 0 4px 25px;
-  line-height: 1.5em;}
+  line-height: 1.5em;
+}
+
 
 #colours
 { height: 0px;
   text-align: right;
   padding: 66px 16px 0px 300px;}
-  
+ 
+body{
+    overflow:hidden;
+}
+
+
+#center {
+  LEFT: 50%;
+  POSITION: absolute;
+  TOP: 50%
+}
+
+#center1 {
+    Left: 75%;
+    position: absolute;
+    Top: 25%;
+}
+
+#DHTMLBOOK {
+  LEFT: -375px;
+  VISIBILITY: hidden;
+  WIDTH: 760px;
+  POSITION: relative;
+  TOP: -160px;
+  HEIGHT: 520px
+}
+
+#TXTBOX {
+  FONT-SIZE: 0.8em;
+  WIDTH: 410px;
+  COLOR: #aba193;
+  FONT-FAMILY: verdana;
+  POSITION: absolute;
+  TOP: 320px;
+  TEXT-ALIGN: center}
+
+.page {
+  OVERFLOW: hidden;
+  WIDTH: 50%;
+  CURSOR: pointer;
+  POSITION: absolute;
+  HEIGHT: 100%
+}
+
+.right {
+  LEFT: 50%}
+
+.turn{
+  background: lightblue;
+}
+
+.img {
+  WIDTH: 200%;
+  POSITION: absolute;
+  HEIGHT: 100%
+}
+
