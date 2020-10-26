@@ -7,7 +7,11 @@ html
 body
 { font: normal .80em 'trebuchet ms', arial, sans-serif;
   background: #F0EFE2 url(background.png) repeat;
-  color: #FFF;}
+    background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  color: #FFF;
+}
 
 p
 { padding: 0 0 20px 0;
