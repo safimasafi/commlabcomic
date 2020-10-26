@@ -188,3 +188,33 @@ a:hover
   POSITION: absolute;
   HEIGHT: 100%
 }
+
+#img10 {
+  position: absolute; 
+  top: 90px; 
+  left: 5%;
+  min-width: 2%;
+min-height: 2%;}
+
+.imgwrapper {
+  position: relative;
+}
+.showtext + div {
+  position: relative;
+  left: 150px;
+  top: 80px;
+  display: none;
+  pointer-events: none;
+  font-size: 20px;
+  width: 250px;
+}
+.showtext:hover + div {
+  display: block;
+}
+
+#img11 {
+  position: absolute; 
+  top: 5; 
+  left: 2%;
+  min-width: 10%;
+    min-height: 10%;}
