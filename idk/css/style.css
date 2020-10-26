@@ -23,7 +23,7 @@ body {
   COLOR: #aba193;
   FONT-FAMILY: verdana;
   POSITION: absolute;
-  TOP: 320px;
+  TOP: 150px;
   TEXT-ALIGN: center}
 
 .page {
@@ -44,4 +44,5 @@ body {
 .img {
   WIDTH: 200%;
   POSITION: absolute;
-  HEIGHT: 100%
+    HEIGHT: 100%}
+

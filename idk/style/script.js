@@ -3,11 +3,11 @@ document.onselectstart = function () { return false; }
 var nI  = 0;
 var kI  = 0;
 var run = false;
+
 function setOpacity(obj,o) {
 	if (o<0) o=0; else if (o>100) o = 100;
 	if (obj.filters)obj.filters.alpha.opacity=o; else obj.style.opacity = o/100;
 }
-
 function TPR__(p) {
 	P1.style.left  = 50-(2.5*p)+"%";
 	P1.style.width = (2.5*p)+"%";
@@ -88,5 +88,3 @@ onload = function() {
 	titLe(kI);
 	DB.style.visibility = "visible";
 }
-
-

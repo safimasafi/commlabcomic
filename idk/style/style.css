@@ -1,14 +1,13 @@
 html
 { height: 100%;}
-
+*
 { margin: 0;
   padding: 0;}
 
 body
 { font: normal .80em 'trebuchet ms', sans-serif;
-  background: #F0EFE2 url(background1.jpg) repeat;
+  background: #F0EFE2 url(background1.jpg);
     background-position: center;
-  background-repeat: repeat;
   background-size: cover;
   color: darkblue;
 }
@@ -51,14 +50,6 @@ a, a:hover
 
 a:hover
 { text-decoration: none;}
-
-ul
-{ margin: 2px 0 22px 17px;}
-
-ul li
-{ list-style-type: circle;
-  margin: 0 0 6px 0; 
-  padding: 0 0 4px 5px;}
 
 #main, #logo, #menubar, #site_content
 { margin-left: auto; 
@@ -124,7 +115,7 @@ ul li
 { width: 854px;
   overflow: hidden;
   margin: 0 auto 0 auto;
-  padding: 20px 25px 20px 20px;
+  padding: 15px 25px 20px 20px;
   background: transparent url(transparent_light.png) repeat;} 
 
 .sidebar
@@ -159,12 +150,6 @@ ul li
   TOP: 50%
 }
 
-#center1 {
-  LEFT: 50%;
-  POSITION: absolute;
-  TOP: 50%
-}
-
 #DHTMLBOOK {
   LEFT: -375px;
   VISIBILITY: hidden;
@@ -174,30 +159,12 @@ ul li
   HEIGHT: 520px
 }
 
-#DHTMLBOOK1 {
-  LEFT: -375px;
-  VISIBILITY: hidden;
-  WIDTH: 760px;
-  POSITION: relative;
-  TOP: -140px;
-  HEIGHT: 520px
-}
-
 #TXTBOX {
   FONT-SIZE: 0.8em;
   WIDTH: 410px;
   COLOR: #aba193;
   FONT-FAMILY: verdana;
-  POSITION: absolute;
-  TOP: 320px;
-  TEXT-ALIGN: center}
-
-#TXTBOX1 {
-  FONT-SIZE: 0.8em;
-  WIDTH: 410px;
-  COLOR: #aba193;
-  FONT-FAMILY: verdana;
-  POSITION: absolute;
+  POSITION: hidden;
   TOP: 320px;
   TEXT-ALIGN: center}
 
@@ -221,10 +188,3 @@ ul li
   POSITION: absolute;
   HEIGHT: 100%
 }
-
-.img1 {
-  WIDTH: 200%;
-  POSITION: absolute;
-  HEIGHT: 100%
-}
-
