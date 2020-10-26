@@ -5,12 +5,12 @@ html
   padding: 0;}
 
 body
-{ font: normal .80em 'trebuchet ms', arial, sans-serif;
-  background: #F0EFE2 url(background.png) repeat;
+{ font: normal .80em 'trebuchet ms', sans-serif;
+  background: #F0EFE2 url(background1.jpg) repeat;
     background-position: center;
   background-repeat: repeat;
   background-size: cover;
-  color: #FFF;
+  color: darkblue;
 }
 
 p
@@ -22,22 +22,22 @@ img
 
 h1, h2, h3, h4, h5, h6 
 { font: normal 175% 'century gothic', arial, sans-serif;
-  color: #FFF;
+  color: darkblue;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;}
 
 h2
-{ font: normal 175% 'century gothic', arial, sans-serif;
+{ font: normal 175% 'century gothic', sans-serif;
   color: #FFF;}
 
 h4, h5, h6
 { margin: 0;
   padding: 0 0 5px 0;
-  font: normal 120% arial, sans-serif;
+  font: normal 120% sans-serif;
   color: #FFF;}
 
 h5, h6
-{ font: italic 95% arial, sans-serif;
+{ font: italic 95% sans-serif;
   padding: 0 0 15px 0;
   color: #FFF;}
 
@@ -124,7 +124,7 @@ ul li
 { width: 854px;
   overflow: hidden;
   margin: 0 auto 0 auto;
-  padding: 20px 24px 20px 20px;
+  padding: 20px 25px 20px 20px;
   background: transparent url(transparent_light.png) repeat;} 
 
 .sidebar
