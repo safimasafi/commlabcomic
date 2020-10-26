@@ -159,6 +159,12 @@ ul li
   TOP: 50%
 }
 
+#center1 {
+  LEFT: 50%;
+  POSITION: absolute;
+  TOP: 50%
+}
+
 #DHTMLBOOK {
   LEFT: -375px;
   VISIBILITY: hidden;
@@ -168,7 +174,25 @@ ul li
   HEIGHT: 520px
 }
 
+#DHTMLBOOK1 {
+  LEFT: -375px;
+  VISIBILITY: hidden;
+  WIDTH: 760px;
+  POSITION: relative;
+  TOP: -140px;
+  HEIGHT: 520px
+}
+
 #TXTBOX {
+  FONT-SIZE: 0.8em;
+  WIDTH: 410px;
+  COLOR: #aba193;
+  FONT-FAMILY: verdana;
+  POSITION: absolute;
+  TOP: 320px;
+  TEXT-ALIGN: center}
+
+#TXTBOX1 {
   FONT-SIZE: 0.8em;
   WIDTH: 410px;
   COLOR: #aba193;
@@ -203,3 +227,4 @@ ul li
   POSITION: absolute;
   HEIGHT: 100%
 }
+
