@@ -21,4 +21,4 @@ Our comic is an original fairy tale for children. The story is between a bear of
 One of the tricky parts was to set up layers and divide groups of items. The arrangement of the layers will affect the subsequent addition of other elements and items. If I had not separated layers and groups at the beginning, when more and more elements were added, the entire artboard would be messed up, which wasted a lot of time to adjust and reset. Another difficulty is to paint objects that have a three-dimensional sense, such as the stream in the middle of the grassland. The height, width, and thickness of the object need to be taken into account, and that requires an understanding of perspectivity, spacing, and shading. It could be a challenge for people like me who have no previous experience with painting. It took me long to adjust features to get the desired effect.
 <p>
 commlabcomic/Yoki.png
-    <img src="commlabcomic/Yoki.png"></p>
+    <img src="idk/Yoki.png"></p>
