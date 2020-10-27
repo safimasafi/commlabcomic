@@ -8,7 +8,7 @@ body
 { font: normal .80em 'trebuchet ms', sans-serif;
   background: #F0EFE2 url(background1.jpg);
     background-position: center;
-  background-size: cover;
+  background-size: 100%;
   color: darkblue;
 }
 
@@ -191,7 +191,7 @@ a:hover
 
 #img10 {
   position: absolute; 
-  top: 90px; 
+  top: 20px; 
   left: 5%;
   min-width: 2%;
 min-height: 2%;}
@@ -202,7 +202,7 @@ min-height: 2%;}
 .showtext + div {
   position: relative;
   left: 150px;
-  top: 80px;
+  top: 15px;
   display: none;
   pointer-events: none;
   font-size: 20px;
@@ -218,3 +218,72 @@ min-height: 2%;}
   left: 2%;
   min-width: 10%;
     min-height: 10%;}
+
+#img12 {
+  position: absolute; 
+  top: 320px; 
+  left: 5%;
+  min-width: 2%;
+min-height: 2%;}
+
+.imgwrapper1 {
+  position: relative;
+}
+.showtext1 + div {
+  position: relative;
+  left: 150px;
+  top: 315px;
+  display: none;
+  pointer-events: none;
+  font-size: 20px;
+  width: 250px;
+}
+.showtext1:hover + div {
+  display: block;
+}
+
+#img13 {
+  position: absolute; 
+  top: 1%; 
+  left: 80%;
+  min-width: 2%;
+min-height: 2%;}
+
+.imgwrapper2 {
+  position: relative;
+}
+.showtext2 + div {
+  position: relative;
+  left: 84%;
+  top: 7%;
+  display: none;
+  pointer-events: none;
+  font-size: 20px;
+  width: 250px;
+}
+.showtext2:hover + div {
+  display: block;
+}
+
+#img14 {
+  position: absolute; 
+  top: 340px; 
+  right: 7%;
+  min-width: 2%;
+  min-height: 2%;}
+
+.imgwrapper4 {
+  position: relative;
+}
+.showtext4 + div {
+  position: relative;
+  right: 7px;
+  top: 320px;
+  display: none;
+  pointer-events: none;
+  font-size: 20px;
+  width: 250px;
+}
+.showtext4:hover + div {
+  display: block;
+}
